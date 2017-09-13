@@ -1,0 +1,12 @@
+﻿interface IMiembro {
+    avatar: string;
+    login: string;
+    urlPerfil: string;
+}
+
+function algo(miembro: IMiembro) {
+    return miembro.avatar + miembro.login + miembro.urlPerfil;
+}
+
+let otroalgo = algo({ avatar: "avatar", login: "login", urlPerfil: "urlPerfil" });
+
