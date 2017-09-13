@@ -1,0 +1,22 @@
+﻿#member {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#member li {
+    float: left;
+    margin: 10px;
+}
+#member span {
+    display: block;
+    text-align: center
+}
+#member li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+#member img {
+    width: 100px;
+    height: 100px;
+}
