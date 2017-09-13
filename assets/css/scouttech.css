@@ -1,22 +1,53 @@
-﻿#member {
+﻿.lista {
     list-style-type: none;
     display: inline-block;
     margin-right: auto;
     margin-left: auto;
 }
-#member li {
-    float: left;
-    margin: 10px;
+
+    .lista li {
+        float: left;
+        margin: 10px;
+    }
+
+    .lista span {
+        display: block;
+        text-align: center;
+    }
+
+    .lista li:hover {
+        background: #eee;
+        cursor: pointer;
+    }
+
+    .lista img {
+        width: 100px;
+        height: 100px;
+    }
+
+.lista2 {
+    list-style-type: none;
 }
-#member span {
-    display: block;
-    text-align: center
-}
-#member li:hover {
-    background: #eee;
-    cursor: pointer;
-}
-#member img {
-    width: 100px;
-    height: 100px;
-}
+
+    .lista2 .fa {
+        float: right;
+        margin: 0 5px;
+    }
+
+    .lista2 li {
+        margin: 10px;
+    }
+
+        .lista2 li:hover {
+            background: #eee;
+            cursor: pointer;
+        }
+
+    .lista2 a {
+        text-decoration: none;
+    }
+
+    .lista2 h3 {
+        text-transform: capitalize;
+        margin: 1px;
+    }
