@@ -4,7 +4,9 @@
     margin-right: auto;
     margin-left: auto;
 }
-
+    .lista a{
+        text-decoration:none;
+    }
     .lista li {
         float: left;
         margin: 10px;
@@ -51,3 +53,8 @@
         text-transform: capitalize;
         margin: 1px;
     }
+.issue{
+    display:inline-block;
+    /*float:right !important;*/
+       
+}
