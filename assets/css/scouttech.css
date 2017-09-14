@@ -85,7 +85,6 @@
     background-color: black;
     font-size: x-small;
 }
-
 .tag {
     color: #fff;
     display: inline-block !important;
@@ -97,7 +96,6 @@
     border-radius: 5px;
     font-weight: bold;
 }
-
 .marco {
     border: 2px solid grey;
     border-radius: 10px;
