@@ -35,7 +35,7 @@ $(document).ready(function () {
             $("#two").find(".lista").empty();
             validos.forEach(function (x) {
                 $("#two").find(".lista").append(
-                    $("<li>").append(
+                    $("<li>",{class:"marco"}).append(
                         $("<a>", { href: x.html_url, target: "_blank" }).append(
                             $("<h3>", { text: x.title })
                         ).append(
