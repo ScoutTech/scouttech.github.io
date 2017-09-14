@@ -12,6 +12,7 @@
     .lista li {
         float: left;
         margin: 10px;
+        padding: 2px;
     }
 
     .lista span {
@@ -94,4 +95,9 @@
     margin: 1px;
     border-radius: 5px;
     font-weight: bold;
+}
+.marco {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 15px
 }
